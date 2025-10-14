@@ -1,9 +1,10 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    Name: 'Inteligencia artificial generativa y predictiva',
+    Description:
+      'Este componente aborda el concepto de <i>prompts</i> en inteligencia artificial, destacando su importancia como instrucciones o preguntas que guían a los modelos de lenguaje para generar respuestas específicas y relevantes. Asimismo, se explican los conceptos básicos y las aplicaciones prácticas de la inteligencia artificial predictiva y generativa, resaltando las diferencias entre ambas, sus tipos, técnicas, aplicaciones y criterios éticos asociados. Todo ello se ejemplifica mediante situaciones cotidianas y entornos digitales, con el fin de facilitar su comprensión.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -31,28 +32,56 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: '<i>Prompts</i>: concepto y principios fundamentales',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Tipos de <i>Prompts</i>',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo:
+              'Técnicas de mejora de la interacción con modelos de inteligencia artificial',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: '<i>Prompts</i> efectivos',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: '<i>Prompts</i> no efectivos',
+            hash: 't_1_4',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Inteligencia artificial predictiva',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Tipos de IA predictiva',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Criterios de aplicación de la IA predictiva',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Inteligencia artificial generativa',
         desarrolloContenidos: true,
+        subMenu: [],
       },
     ],
     subMenu: [
@@ -102,22 +131,155 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema 1',
-      referencia: 'Texto',
-      tipo: 'Sitio web',
-      link: 'Link',
+      tema: '<i>Prompts</i>: concepto y principios fundamentales',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (2025). Aplicando <i>prompt</i> en una Inteligencia artificial generativa (<i>ChatGPT</i>).',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=tuJhXlC2z1Y&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
+    },
+    {
+      tema: 'Inteligencia artificial generativa',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (2025). Generación de códigos de <i>software</i> con inteligencia artificial.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=l1eM-pZLVn0&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
+    },
+    {
+      tema: 'Inteligencia artificial generativa',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (2025). Conociendo una inteligencia artificial generativa (<i>ChatGPT</i>).',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=nsiiw1GZHMk&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Inteligencia artificial (IA)',
+      significado:
+        'campo de la informática que busca que las máquinas imiten funciones humanas como aprender, razonar y decidir.',
+    },
+    {
+      termino: 'Redes neuronales',
+      significado:
+        'algoritmos inspirados en el cerebro humano que permiten a la IA reconocer patrones y aprender.',
+    },
+    {
+      termino: 'Aprendizaje automático (<i>machine learning</i>)',
+      significado:
+        'rama de la IA que entrena sistemas con datos para mejorar su desempeño sin programación explícita.',
+    },
+    {
+      termino: 'Aprendizaje profundo (<i>deep learning</i>)',
+      significado:
+        'subcampo del <i>machine learning</i> que usa redes neuronales complejas para procesar grandes volúmenes de datos.',
+    },
+    {
+      termino: 'Datos históricos',
+      significado:
+        'información recolectada en el pasado que se utiliza en IA predictiva para generar pronósticos.',
+    },
+    {
+      termino: 'Predicción',
+      significado:
+        'estimación de eventos futuros a partir de patrones y datos previos.',
+    },
+    {
+      termino: 'Ia predictiva',
+      significado:
+        'tecnología que identifica patrones en datos pasados para anticipar comportamientos o riesgos.',
+    },
+    {
+      termino: 'Ia generativa',
+      significado:
+        'tecnología capaz de crear contenido nuevo como textos, imágenes, música o código.',
+    },
+    {
+      termino: 'Modelos supervisados',
+      significado:
+        'algoritmos entrenados con datos etiquetados que guían las predicciones.',
+    },
+    {
+      termino: 'Modelos no supervisados',
+      significado:
+        'algoritmos que buscan patrones en datos sin etiquetas previas.',
+    },
+    {
+      termino: 'Regresión',
+      significado:
+        'técnica matemática para predecir valores numéricos en IA predictiva.',
+    },
+    {
+      termino: 'Árboles de decisión',
+      significado:
+        'algoritmo que organiza decisiones en forma de árbol para clasificar o predecir resultados.',
+    },
+    {
+      termino: 'Análisis de datos',
+      significado: 'proceso de examinar datos para descubrir patrones útiles.',
+    },
+    {
+      termino: 'Creatividad artificial',
+      significado:
+        'capacidad de la IA generativa para producir contenido original.',
+    },
+    {
+      termino: 'Procesamiento del lenguaje natural (pln)',
+      significado:
+        'tecnología que permite a la IA entender y generar lenguaje humano.',
+    },
+    {
+      termino: '<i>Prompts</i>',
+      significado:
+        'instrucciones o preguntas que guían la generación de respuestas en modelos de IA.',
+    },
+    {
+      termino: '<i>Chatbot</i>',
+      significado: 'programa basado en IA que simula conversaciones humanas.',
+    },
+    {
+      termino: 'Recomendadores',
+      significado:
+        'sistemas de IA que predicen y sugieren contenido personalizado, como en netflix o spotify.',
+    },
+    {
+      termino: 'Mantenimiento predictivo',
+      significado:
+        'uso de IA para anticipar fallos en máquinas e infraestructura.',
+    },
+    {
+      termino: 'Ética en IA',
+      significado:
+        'conjunto de principios para garantizar un uso responsable, transparente y seguro de la inteligencia artificial.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Álvarez Tapia, M. E., Eugenia Julissa, M. O., & Adriana Analy, E. Y. (2025). Implementación de las tecnologías inteligentes en el mercado laboral. Dilemas Contemporáneos: Educación, Política y Valore, Xii.',
+    },
+
+    {
+      referencia:
+        'López i Seuba, M. (2019). Internet de las cosas: la transformación digital de la sociedad. Ediciones de la U.',
+    },
+
+    {
+      referencia:
+        'Pineda Pertuz, C. M. (2021). Aprendizaje automático y profundo en <i>python</i>: una mirada hacia la inteligencia artificial. Ediciones de la U. ',
+    },
+
+    {
+      referencia:
+        'Wilderbeek, Francisco Leslie López del Castillo. (2024). Inteligencia artificial generativa: determinismo tecnológico o artefacto construido socialmente.',
+    },
+
+    {
+      referencia:
+        'Rodal Montero, E. (2020). Industria 4.0. Conceptos, tecnologías habilitadoras y retos. Ediciones Pirámide.',
+      link: 'https://ebooks7-24-com.bdigital.sena.edu.co/?il=13648',
     },
   ],
   creditos: [
@@ -140,9 +302,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: ' ',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Javier Eduardo Díaz Machuca',
+          cargo: 'Experto temático',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -150,18 +317,23 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'María Alejandra Vera Briceño',
+          cargo: 'Animadora y productora multimedia',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Desarrollador <i>full stack</i>',
+          nombre: 'Johann Sebastián Terán Carvajal',
+          cargo: 'Animador y productor multimedia',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Animador y productor audiovisual',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
+          cargo: 'Diseñador de contenidos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: 'Lizeth Karina Manchego Suarez',
+          cargo: 'Desarrolladora <i>full-stack</i>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -170,13 +342,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          nombre: '--',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          nombre: '--',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

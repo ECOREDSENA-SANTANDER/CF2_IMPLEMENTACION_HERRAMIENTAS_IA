@@ -5,7 +5,16 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 1
-        h1 Titulo de primer nivel
+        h1 Prompts: concepto y principios fundamentales
+      #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+        h2 1.1 Tipos de Prompts
+      #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+        h2 1.2 Técnicas de mejora de la interacción con modelos de inteligencia artificial
+      #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+        h2 1.3 Prompts efectivos
+      #t_1_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+        h2 1.4 Prompts no efectivos
+      
         
 
   </template>
