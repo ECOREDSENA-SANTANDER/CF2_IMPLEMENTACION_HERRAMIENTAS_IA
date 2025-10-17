@@ -40,12 +40,35 @@
 .banner-interno__titulo h5, .banner-interno__titulo h6
   color: $white !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $color-sistema-texto !important
+  color: $white !important
 figcaption 
     font-weight: normal !important
-
-    background-color: #D2C3DD !important
-
+    background-color: #EBE5F6 !important
+.tabla-a.color-secundario thead 
+    background-color: #EBE5F6;
+.slyder-a__tipo-b .slyder-a__btn--atrs,
+.slyder-a__tipo-b .slyder-a__btn--sigt
+    background-color: $color-acento-botones !important
+    border-color: $color-acento-botones !important
+.slyder-a__bullets__item--active 
+    background-color: #9936B1 !important
+    border-color: #9936B1 !important
+.slyder-a__bullets__item 
+    background-color: #D6AEE0
+    border: 1px solid #D6AEE0
+.acordion__accion__btn--b
+  background-color: $color-acento-botones
+  border-color: $color-acento-botones 
+  color: $color-sistema-texto 
+.acordion__activo
+  background-color: #E5EEFF !important
+.acordion__activo .acordion__accion__btn--b
+    background-color: #5C206A 
+    border-color: #5C206A 
+    color: $white 
+.tabs-a__tab
+    background-color: $color-acento-botones
+    
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -56,9 +79,46 @@ figcaption
   background-repeat: no-repeat
   background-position: bottom
   margin-inline: -3.3rem
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/temas/bg/2.svg") !important
+    background-position: top
+    background-size: contain
+    background-repeat: no-repeat
+  &-2
+    background-image: url("../assets/curso/temas/bg/3.png") !important
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    border-radius: 40px !important
+  &-3
+    background-image: url("../assets/curso/temas/bg/4.png") !important
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    border-radius: 40px !important
+    &:hover
+      background-image: url("../assets/curso/temas/bg/5.png") !important
+      .bg-color-3
+        background-color: #4F08C2 !important
+      .bg-color-3 h4
+        color: $white !important
+  &-4
+    background-image: url("../assets/curso/temas/bg/6.png") !important
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    border-radius: 20px !important
+
+      
+
 .bg-color
   &-1
-    color: $color-primario !important
+    background-color: #99BEFF !important
+  &-2
+    background-color: #99BEFF
+  &-3
+    background-color: #fff 
 
 .br
   &-1
@@ -70,9 +130,69 @@ figcaption
       
 .hcard
   &-1
-    height: 750px !important
+    height: 480px !important
 
-      
+.wcus
+  &-1
+    width: 30% !important
+  &-2
+    width: 25% !important
+  &-3
+    width: 15% !important
+  &-4
+    width: fit-content
+  &-5
+    width: 25% !important
+
+.textcus
+  &-1
+    text-align: left !important
+.tabla
+  &-3
+    min-width: 500px !important
+  &-4
+    min-width: 500px !important
+    td 
+      padding: 15px 10px !important
+.pcus
+  &-1
+    padding: 0 3rem  !important;
+
+.titulo-icono
+  background-color: #F5EAF7
+  border-radius: 10px
+  width: fit-content
+  position: relative;
+  left: 12px;
+  &-text
+    margin-right: 10px
+    margin-left: 50px;
+    color: $color-sistema-texto
+  &-img
+    padding: 0px
+    position: absolute
+    top: -7px
+
+    &:before
+      position: relative
+      border-bottom-right-radius: 40px
+      @media screen and (max-width: 767px)
+        height: 280%
+    img
+      position: relative
+      max-width: 50px    
+
+.titulo-icono-2
+  background-color: #F5EAF7
+  border-top-right-radius: 20px
+  border-bottom: 3px solid #9936B1
+  width: fit-content
+  &-text
+    color: $color-sistema-texto
+    margin-right: 10px
+    margin-left: 10px
+
+ 
 
 /**************************************************************/
 /*Media Queries*/  
@@ -97,10 +217,32 @@ figcaption
 @media screen and (max-width: $bp-min-md)
   .mb-cus
     margin-bottom: 2em  !important  
+  .bloque-texto-g
+        padding-top: 50px !important;
 
-  
+  .wcus
+    &-1
+      width: 40% !important
+    &-2
+      width: 33% !important
 
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
     margin-bottom: 2em  !important
+  .bloque-texto-g
+        padding-top: 20px !important;
+  .pcus
+    &-1
+      padding: 0 0.2rem  !important;
+  .slyder-a__bullets__item 
+    width: 5px;
+    height: 5px;
+    margin: 0 2px;
+  .wcus
+    &-1
+      width: 35% !important
+    &-2
+      width: 30% !important
+    &-5
+      width: 35% !important

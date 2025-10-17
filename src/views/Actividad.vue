@@ -28,7 +28,7 @@ export default {
         {
           id: 1,
           texto:
-            'Los\tprompts son preguntas o instrucciones que guían a un modelo de inteligencia artificial para generar respuestas.',
+            'Los <i>prompts</i> son preguntas o instrucciones que guían a un modelo de inteligencia artificial para generar respuestas.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
