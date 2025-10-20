@@ -68,7 +68,29 @@ figcaption
     color: $white 
 .tabs-a__tab
     background-color: $color-acento-botones
-    
+.linea-tiempo-d  .tarjeta 
+    background-color: #EBE5F6
+.linea-tiempo-d .linea-tiempo-d__item--selected .tarjeta 
+    background-color: #E5EEFF;    
+.linea-tiempo-d__item__dots:after 
+    border-left: 5px dotted #B299DB
+.slyder-f__btn i
+    background-color: $color-acento-botones
+    border-radius: 60%
+    padding: 6px 10px
+    font-size: 1.5rem;
+.tarjeta-avatar-2 
+  height: 100%;
+  position: relative;
+  padding-top: 100px;
+  & > img 
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    display: block;
+    width: 150px;
+    margin: 0 auto;
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -110,7 +132,12 @@ figcaption
     background-repeat: no-repeat
     border-radius: 20px !important
 
-      
+  &-5
+    background-position: center
+    background-size: contain
+    background-repeat: no-repeat
+    background:  url("../assets/curso/temas/t1/30.png"), linear-gradient(to bottom, #4F08C2 0%, #280461 100%),
+    
 
 .bg-color
   &-1
@@ -119,7 +146,29 @@ figcaption
     background-color: #99BEFF
   &-3
     background-color: #fff 
-
+  &-4
+    background-color: #E5EEFF !important
+  &-5
+    background-color: #4F08C2 !important
+  &-6
+    background-color: #EBE5F6 !important
+    border-radius: 10px !important
+    border: 2px solid #4F08C2
+  &-7
+    background-color: #E5EEFF !important
+    border-radius: 10px !important
+    border: 2px solid #005DFF
+  &-8
+    background-color: #F5EAF7 !important
+    border-radius: 10px !important
+    border: 2px solid #9936B1
+  &-9
+    background-color: #2F0474 !important
+  &-10
+    background-color: #EBE5F6 !important
+    border-radius: 15px !important
+  &-11
+    background-color: #EBE5F6 !important
 .br
   &-1
     border-radius: 10px !important
@@ -131,6 +180,10 @@ figcaption
 .hcard
   &-1
     height: 480px !important
+  &-2
+    height: 110px !important
+  &-3
+    height: 220px !important
 
 .wcus
   &-1
@@ -157,6 +210,10 @@ figcaption
 .pcus
   &-1
     padding: 0 3rem  !important;
+  &-2
+    padding: 0 4rem
+  &-3
+    padding: 1.5rem 2rem  !important;
 
 .titulo-icono
   background-color: #F5EAF7
@@ -192,7 +249,62 @@ figcaption
     margin-right: 10px
     margin-left: 10px
 
- 
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+.crd--avatarHorizontal,
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5
+    color: #7F4FC7
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #E5EEFF
+  @media (max-width: 1000px)
+    padding-right: 2rem
+.crd--avatarHorizontal-2
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5
+    color: #7F4FC7
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #EBE5F6
+
+.crd--first
+  &::before
+    background-color: #EBE5F6 !important
+.crd--last
+  &::before
+    background-color: #E5EEFF !important
+.crd--first
+  &::before
+    border-top-left-radius: 30px
+.crd--last
+  &::before
+    border-bottom-left-radius: 30px 
 
 /**************************************************************/
 /*Media Queries*/  
@@ -225,7 +337,15 @@ figcaption
       width: 40% !important
     &-2
       width: 33% !important
-
+  .pcus
+    &-2
+      padding: 2rem 
+  .hcard
+    &-4
+      height: 300px !important
+    &-5
+      height: 300px !important
+  
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
@@ -235,6 +355,8 @@ figcaption
   .pcus
     &-1
       padding: 0 0.2rem  !important;
+    &-2
+      padding: 2rem  
   .slyder-a__bullets__item 
     width: 5px;
     height: 5px;
@@ -246,3 +368,13 @@ figcaption
       width: 30% !important
     &-5
       width: 35% !important
+  .linea-tiempo-d__item__content__title
+    min-height: 40px !important
+    height: auto !important
+  .tarjeta--container > .tarjeta:first-child,
+  .tarjeta--container > .tarjeta:last-child,
+  .tarjeta--container > .tarjeta 
+    border-radius: 20px
+  .crd--avatarHorizontal-2
+        padding-right: 2rem;
+    
