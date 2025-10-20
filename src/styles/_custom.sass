@@ -91,6 +91,20 @@ figcaption
     display: block;
     width: 150px;
     margin: 0 auto;
+.tarjeta-avatar-c
+  display: flex;
+  align-items: center;
+.tarjeta-avatar-c__img
+    width: 20%;
+    max-width: 20%;
+    position: relative;
+    display: flex
+    align-items: center;
+.tarjeta-avatar-c .tarjeta 
+    width: 100%;
+    margin-left: -10%;
+    padding-left: 6%;
+
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -169,6 +183,13 @@ figcaption
     border-radius: 15px !important
   &-11
     background-color: #EBE5F6 !important
+  &-12
+    background-color: #B299DB !important
+  &-13
+    background-color:  #005DFF
+  &-14
+    background-color: #005DFF !important
+    border-top-right-radius: 115px
 .br
   &-1
     border-radius: 10px !important
@@ -184,7 +205,10 @@ figcaption
     height: 110px !important
   &-3
     height: 220px !important
-
+  &-5
+    height: 250px !important
+  &-6
+    height: 150px !important
 .wcus
   &-1
     width: 30% !important
@@ -214,7 +238,8 @@ figcaption
     padding: 0 4rem
   &-3
     padding: 1.5rem 2rem  !important;
-
+  &-4
+    padding: 1rem  !important;
 .titulo-icono
   background-color: #F5EAF7
   border-radius: 10px
@@ -345,6 +370,10 @@ figcaption
       height: 300px !important
     &-5
       height: 300px !important
+    &-6
+      height: 200px !important
+  .tarjeta-avatar-c .tarjeta 
+        margin-left: 0;
   
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
@@ -377,4 +406,7 @@ figcaption
     border-radius: 20px
   .crd--avatarHorizontal-2
         padding-right: 2rem;
+  .tarjeta-avatar-c .tarjeta 
+        margin-left: 0;
+  
     
