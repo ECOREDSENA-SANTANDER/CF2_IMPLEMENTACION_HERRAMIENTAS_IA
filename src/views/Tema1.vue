@@ -114,7 +114,7 @@
         .col-sm-12.col-lg-1.d-none.d-lg-block
           img(src='@/assets/curso/temas/t1/6.svg', alt='')
         .col-sm-12.col-lg-11
-            p.mb-0 Comprender qué son los prompts, sus tipos y cómo formularlos de manera efectiva es clave para aprovechar al máximo las capacidades de la IA, mejorar la precisión de las respuestas y fomentar la creatividad en distintos ámbitos, desde la educación hasta la investigación y el desarrollo de contenidos digitales. Existen diferentes tipos de  #[i prompts] que pueden ser utilizados dependiendo de la finalidad deseada.
+            p.mb-0 Comprender qué son los #[i prompts], sus tipos y cómo formularlos de manera efectiva es clave para aprovechar al máximo las capacidades de la IA, mejorar la precisión de las respuestas y fomentar la creatividad en distintos ámbitos, desde la educación hasta la investigación y el desarrollo de contenidos digitales. Existen diferentes tipos de  #[i prompts] que pueden ser utilizados dependiendo de la finalidad deseada.
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         p.mb-0 #[b Tabla 2.] Tipos de #[i prompts]
       .tabla-a.color-secundario.mb-5(data-aos='fade-right')
@@ -432,7 +432,7 @@
           .titulo-sexto.color-acento-contenido
             p.mb-0 #[b Tabla 3.] Casos  de uso #[i Prompts]
           .tabla-a.color-secundario.mb-0
-            table.tabla-3(alt="")
+            table.tabla-3(alt="El cuadro compara situaciones donde los prompts efectivos generan aprendizaje, investigación y creatividad, frente a casos no efectivos que provocan confusión, frustración y pérdida de calidad en los resultados.")
               thead
                 tr
                   th Casos efectivos
@@ -459,7 +459,7 @@
           .titulo-sexto.color-acento-contenido
             p.mb-0 #[b Tabla 4.] Casos de uso de la  IA en la vida real
           .tabla-a.color-secundario.mb-0
-            table.tabla-4(alt="")
+            table.tabla-4(alt="El cuadro muestra cómo la inteligencia artificial está presente en la vida cotidiana a través de la navegación, las recomendaciones, los asistentes virtuales, la educación personalizada, la salud y la domótica, facilitando tareas y mejorando la experiencia diaria.")
               thead
                 tr
                   th.wcus-5 Ámbito

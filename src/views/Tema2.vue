@@ -68,16 +68,16 @@
                 ul.lista-ul--color.mb-0
                   li.d-flex
                     i.fas.fa-robot.icon-list
-                    p.mb-0 Regresión (lineal / logística): predecir valores o probabilidades.
+                    p.mb-0 #[b Regresión (lineal / logística):] predecir valores o probabilidades.
                   li.d-flex
                     i.fas.fa-robot.icon-list
-                    p.mb-0 Árboles de decisión: clasificar escenarios o resultados.
+                    p.mb-0 #[b Árboles de decisión:] clasificar escenarios o resultados.
                   li.d-flex
                     i.fas.fa-robot.icon-list
-                    p.mb-0 Redes neuronales: identificar patrones complejos.
+                    p.mb-0 #[b Redes neuronales:] identificar patrones complejos.
                   li.d-flex.mb-0 
                     i.fas.fa-robot.icon-list
-                    p.mb-0 Máquinas de soporte vectorial: separar categorías y detectar anomalías.
+                    p.mb-0 #[b Máquinas de soporte vectorial:] separar categorías y detectar anomalías.
 
             .row(numero="e" titulo="Validación del modelo")
               .col-sm-12.col-lg-12
@@ -106,7 +106,7 @@
                 .col-12
                     img(src='@/assets/curso/temas/t2/6.png')          
               h3.text-center.text-white Supervisados
-              p.mb-3.text-white Se entrenan con datos ya etiquetados (ejemplo: identificar correos como “spam” o “no spam”).
+              p.mb-3.text-white Se entrenan con datos ya etiquetados (ejemplo: identificar correos como “#[i spam]” o “no #[i spam]”).
             .col-md.tarjeta.bg-color-9.px-5.py-4.hcard-4
               .row.justify-content-center.mb-4
                 .col-12
@@ -159,7 +159,7 @@
               .row.justify-content-center.mb-3
                 .col-8
                   img(src='@/assets/curso/temas/t2/14.svg', alt='')
-              p.mb-0.text-center #[b Otros:] pronóstico climático, detección de fraudes, tráfico urbano, campañas de marketing.
+              p.mb-0.text-center #[b Otros:] pronóstico climático, detección de fraudes, tráfico urbano, campañas de #[i marketing].
 
 
       .row.justify-content-center.mb-5(data-aos='fade-right')
@@ -249,7 +249,7 @@
             .tarjeta.bg-color-10.hcard-3
               .p-4
                 h4.mt-3.text-center Árboles de decisión
-                p.mb-0.text-center Dividen datos en opciones y ayudan a tomar decisiones automáticas, como clasificar correos en spam o no spam. 
+                p.mb-0.text-center Dividen datos en opciones y ayudan a tomar decisiones automáticas, como clasificar correos en #[i spam] o no #[i spam]. 
         
         .col-sm-12.col-md-6.col-lg-3.mb-cus
           .tarjeta-avatar-2.hcard
@@ -293,7 +293,7 @@
                   img(src="@/assets/curso/temas/t2/23.svg", alt="alt").img100
               .col
                 h4 Salud digital
-                p.mb-0 Apps que analizan signos vitales y alertan sobre posibles riesgos antes de que se manifiesten enfermedades. 
+                p.mb-0 #[i Apps] que analizan signos vitales y alertan sobre posibles riesgos antes de que se manifiesten enfermedades. 
 
           .crd.crd--avatarHorizontal-2.crd.py-4
             .row.align-items-center
@@ -302,7 +302,7 @@
                   img(src="@/assets/curso/temas/t2/23.svg", alt="alt").img100
               .col
                 h4 #[i E-commerce]
-                p.mb-0 Facilitan la expansión y optimización de procesos dentro de las organizaciones.
+                p.mb-0 Amazon predice qué productos comprarán los usuarios y recomienda ofertas personalizadas, optimizando el inventario. 
 
           .crd.crd--avatarHorizontal.crd--last.py-4
             .row.align-items-center
@@ -311,7 +311,7 @@
                   img(src="@/assets/curso/temas/t2/26.svg", alt="alt").img100
               .col
                 h4 Mantenimiento predictivo
-                p.mb-0 Apps en fábricas anticipan cuándo una máquina podría fallar y avisan antes de que esto ocurra. 
+                p.mb-0 #[i Apps] en fábricas anticipan cuándo una máquina podría fallar y avisan antes de que esto ocurra. 
 
 
 
@@ -322,26 +322,26 @@
         h2 2.2 Criterios de aplicación de la IA predictiva
       
       .tarjeta--container.row.mb-5(data-aos='fade-right')
-        .col-sm-12.col-md-6.col-lg-3.tarjeta.bg-color-4.px-5.py-4.mb-cus.hcard-5
+        .col-sm-12.col-md-6.col-lg-3.tarjeta.bg-color-4.px-5.py-4.mb-cus.hcard-7
           .row.justify-content-center.mb-4
             .col-5
                 img(src='@/assets/curso/temas/t2/28.svg')      
           p.mb-0.text-center #[b Disponibilidad de datos históricos:] sin datos previos, la IA predictiva no puede “aprender”. 
-        .col-sm-12.col-md-6.col-lg-3.tarjeta.bg-color-1.px-5.py-4.mb-cus.hcard-5
+        .col-sm-12.col-md-6.col-lg-3.tarjeta.bg-color-1.px-5.py-4.mb-cus.hcard-7
           .row.justify-content-center.mb-4
             .col-5
                 img(src='@/assets/curso/temas/t2/29.svg')      
           p.mb-0.text-center #[b Calidad de los datos:] los datos deben ser confiables y representativos para que la predicción sea precisa. 
-        .col-sm-12.col-md-6.col-lg-3.tarjeta.bg-color-4.px-5.py-4.mb-cus.hcard-5
+        .col-sm-12.col-md-6.col-lg-3.tarjeta.bg-color-4.px-5.py-4.mb-cus.hcard-7
           .row.justify-content-center.mb-4
             .col-5
                 img(src='@/assets/curso/temas/t2/30.svg')      
           p.mb-0.text-center #[b Claridad del objetivo:] es fundamental tener claro qué se desea predecir (por ejemplo, rotación de estudiantes, ventas, enfermedades).
-        .col-sm-12.col-md-6.col-lg-3.tarjeta.bg-color-1.px-5.py-4.hcard-5
+        .col-sm-12.col-md-6.col-lg-3.tarjeta.bg-color-1.px-5.py-4.hcard-7
           .row.justify-content-center.mb-4
             .col-5
                 img(src='@/assets/curso/temas/t2/31.svg')      
-          p.mb-0.text-center #[b Ética y privacidad:] garantizar el manejo seguro y ético de los datos antes de implementar soluciones predictivas, especialmente online.
+          p.mb-0.text-center #[b Ética y privacidad:] garantizar el manejo seguro y ético de los datos antes de implementar soluciones predictivas, especialmente #[i online].
   </template>
 
 <script>

@@ -37,7 +37,7 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Tipos de <i>Prompts</i>',
+            titulo: 'Tipos de <i>prompts</i>',
             hash: 't_1_1',
           },
           {
@@ -157,7 +157,7 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Inteligencia artificial (IA)',
+      termino: 'Inteligencia Artificial (IA)',
       significado:
         'campo de la informática que busca que las máquinas imiten funciones humanas como aprender, razonar y decidir.',
     },
@@ -187,12 +187,12 @@ export default {
         'estimación de eventos futuros a partir de patrones y datos previos.',
     },
     {
-      termino: 'Ia predictiva',
+      termino: 'IA predictiva',
       significado:
         'tecnología que identifica patrones en datos pasados para anticipar comportamientos o riesgos.',
     },
     {
-      termino: 'Ia generativa',
+      termino: 'IA generativa',
       significado:
         'tecnología capaz de crear contenido nuevo como textos, imágenes, música o código.',
     },
@@ -226,7 +226,7 @@ export default {
         'capacidad de la IA generativa para producir contenido original.',
     },
     {
-      termino: 'Procesamiento del lenguaje natural (pln)',
+      termino: 'Procesamiento del Lenguaje Natural (pln)',
       significado:
         'tecnología que permite a la IA entender y generar lenguaje humano.',
     },
@@ -242,7 +242,7 @@ export default {
     {
       termino: 'Recomendadores',
       significado:
-        'sistemas de IA que predicen y sugieren contenido personalizado, como en netflix o spotify.',
+        'sistemas de IA que predicen y sugieren contenido personalizado, como en Netflix o Spotify.',
     },
     {
       termino: 'Mantenimiento predictivo',
@@ -279,7 +279,6 @@ export default {
     {
       referencia:
         'Rodal Montero, E. (2020). Industria 4.0. Conceptos, tecnologías habilitadoras y retos. Ediciones Pirámide.',
-      link: 'https://ebooks7-24-com.bdigital.sena.edu.co/?il=13648',
     },
   ],
   creditos: [
@@ -342,8 +341,8 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '--',
-          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {

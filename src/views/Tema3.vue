@@ -90,7 +90,7 @@
                 p.mb-0 #[b Generación de música:] IA que compone melodías originales.
               li.d-flex.mb-0
                 i.fas.fa-robot.icon-list
-                p.mb-0 #[b Generación de código:] Herramientas que ayudan a programar automáticamente.
+                p.mb-0 #[b Generación de código:] herramientas que ayudan a programar automáticamente.
         .col-sm-12.col-lg-3.d-none.d-lg-block
           .bg-color-14.p-5.my-3
             img(src='@/assets/curso/temas/t3/7.svg', alt='')
@@ -112,7 +112,7 @@
               p.mb-0 #[b Entretenimiento:] generación de historias interactivas, videojuegos y música.
             li.d-flex.mb-0
               i.fas.fa-robot.icon-list
-              p.mb-0 #[b Tecnología:] chatbots más naturales y asistentes que producen código.
+              p.mb-0 #[b Tecnología:] #[i chatbots] más naturales y asistentes que producen código.
 
 
       img(data-aos='fade-right').mb-5.d-none.d-lg-block(src='@/assets/curso/temas/t3/8.png')
