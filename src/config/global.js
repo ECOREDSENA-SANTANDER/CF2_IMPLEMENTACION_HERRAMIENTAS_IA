@@ -226,7 +226,7 @@ export default {
         'capacidad de la IA generativa para producir contenido original.',
     },
     {
-      termino: 'Procesamiento del Lenguaje Natural (pln)',
+      termino: 'Procesamiento del Lenguaje Natural (PLN)',
       significado:
         'tecnología que permite a la IA entender y generar lenguaje humano.',
     },
