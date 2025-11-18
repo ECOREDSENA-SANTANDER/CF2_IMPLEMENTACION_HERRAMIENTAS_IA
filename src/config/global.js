@@ -115,7 +115,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/21720210_CF2_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -343,11 +343,6 @@ export default {
         {
           nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
-          centro: 'Centro Agroturístico - Regional Santander',
-        },
-        {
-          nombre: '--',
-          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
