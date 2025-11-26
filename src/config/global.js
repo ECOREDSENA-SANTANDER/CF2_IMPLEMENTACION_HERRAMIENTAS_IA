@@ -263,7 +263,7 @@ export default {
 
     {
       referencia:
-        'López i Seuba, M. (2019). Internet de las cosas: la transformación digital de la sociedad. Ediciones de la U.',
+        'López I Seuba, M. (2019). Internet de las cosas: la transformación digital de la sociedad. Ediciones de la U.',
     },
 
     {
