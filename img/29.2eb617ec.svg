@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79.496" height="79.496" viewBox="0 0 79.496 79.496">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_403337" data-name="Rectángulo 403337" width="48" height="48" transform="translate(288.497 11108.496)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1104414" data-name="Grupo 1104414" transform="translate(-273 -11093)">
+    <circle id="Elipse_4742" data-name="Elipse 4742" cx="39.748" cy="39.748" r="39.748" transform="translate(273 11093)" fill="#003799"/>
+    <g id="Enmascarar_grupo_1098857" data-name="Enmascarar grupo 1098857" clip-path="url(#clip-path)">
+      <g id="Icon" transform="translate(285.707 11105.705)">
+        <path id="Trazado_880152" data-name="Trazado 880152" d="M41.86,17.86a6.139,6.139,0,0,0-6.14-6.14H17.86a6.139,6.139,0,0,0-6.14,6.14v17.86a6.139,6.139,0,0,0,6.14,6.14h17.86a6.139,6.139,0,0,0,6.14-6.14Zm-10.6,4.465v8.93a1.674,1.674,0,0,0,3.349,0v-8.93a1.674,1.674,0,1,0-3.349,0Zm-2.233,8.93v-6.7a3.907,3.907,0,0,0-3.907-3.907H22.884a3.907,3.907,0,0,0-3.907,3.907v6.7a1.674,1.674,0,0,0,3.349,0V29.581h3.349v1.674a1.674,1.674,0,0,0,3.349,0Zm-6.7-5.023h3.349V24.558A.558.558,0,0,0,25.116,24H22.884a.558.558,0,0,0-.558.558Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="Trazado_880153" data-name="Trazado 880153" d="M40.186,28.465h8.93a1.674,1.674,0,1,0,0-3.349h-8.93a1.674,1.674,0,0,0,0,3.349Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="Trazado_880154" data-name="Trazado 880154" d="M28.465,13.4V4.465a1.674,1.674,0,0,0-3.349,0V13.4a1.674,1.674,0,0,0,3.349,0Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="Trazado_880155" data-name="Trazado 880155" d="M25.116,40.186v8.93a1.674,1.674,0,0,0,3.349,0v-8.93a1.674,1.674,0,0,0-3.349,0Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="Trazado_880156" data-name="Trazado 880156" d="M13.4,25.116H4.465a1.674,1.674,0,0,0,0,3.349H13.4a1.674,1.674,0,0,0,0-3.349Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="Trazado_880157" data-name="Trazado 880157" d="M40.186,21.767h5.581a1.674,1.674,0,1,0,0-3.349H40.186a1.674,1.674,0,1,0,0,3.349Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="Trazado_880158" data-name="Trazado 880158" d="M21.767,13.4V7.814a1.674,1.674,0,1,0-3.349,0V13.4a1.674,1.674,0,1,0,3.349,0Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="Trazado_880159" data-name="Trazado 880159" d="M18.419,40.186v5.581a1.674,1.674,0,1,0,3.349,0V40.186a1.674,1.674,0,1,0-3.349,0Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="Trazado_880160" data-name="Trazado 880160" d="M13.4,18.419H7.814a1.674,1.674,0,1,0,0,3.349H13.4a1.674,1.674,0,1,0,0-3.349Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="Trazado_880161" data-name="Trazado 880161" d="M40.186,35.163h5.581a1.674,1.674,0,1,0,0-3.349H40.186a1.674,1.674,0,1,0,0,3.349Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="Trazado_880162" data-name="Trazado 880162" d="M35.163,13.4V7.814a1.674,1.674,0,1,0-3.349,0V13.4a1.674,1.674,0,1,0,3.349,0Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="Trazado_880163" data-name="Trazado 880163" d="M31.814,40.186v5.581a1.674,1.674,0,1,0,3.349,0V40.186a1.674,1.674,0,1,0-3.349,0Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="Trazado_880164" data-name="Trazado 880164" d="M13.4,31.814H7.814a1.674,1.674,0,1,0,0,3.349H13.4a1.674,1.674,0,1,0,0-3.349Z" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
